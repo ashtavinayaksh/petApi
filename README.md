@@ -1,3 +1,5 @@
 # petApi
-## to install
-$npm install
+## To install packages
+'''
+npm install
+'''
