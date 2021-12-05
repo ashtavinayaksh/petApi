@@ -24,6 +24,7 @@ router.get("/addspecies", (req, res) => {
   const species = req.body.species;
   const id = req.body.id;
   const species1 = new Species({ species, problems: id });
+  console.log(species);
 
   species1
     .save()
